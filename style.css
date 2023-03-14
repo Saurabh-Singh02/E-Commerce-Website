@@ -1,0 +1,16 @@
+.head {
+    padding: 2vw;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.navbar ul {
+    justify-content: flex-start;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    padding: 1vw 3vw;
+}
