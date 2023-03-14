@@ -1,16 +1,32 @@
 .head {
-    padding: 2vw;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+    background-color: #c5ffb4;
 }
 
 .nav-menu {
     list-style: none;
 }
 
+.head ul li {
+    list-style: none;
+}
+
+.head ul li a {
+    text-decoration: none;
+    padding: 0 1vw;
+}
+
 .navbar ul {
     justify-content: flex-start;
+    background-color: #111827;
+}
+
+.nav-menu {
+    padding: .8vw 1vw;
 }
 
 .nav-menu a {
     text-decoration: none;
-    padding: 1vw 3vw;
+    color: whitesmoke;
 }
