@@ -1,3 +1,4 @@
+/* HEADER CSS */
 .head {
     justify-content: space-between;
     padding: 1vw 2vw;
@@ -15,6 +16,7 @@
 .head ul li a {
     text-decoration: none;
     padding: 0 1vw;
+    color: black;
 }
 
 .navbar ul {
@@ -30,3 +32,10 @@
     text-decoration: none;
     color: whitesmoke;
 }
+
+/* MAIN CSS */
+main {
+    min-height: 80vh;
+}
+
+/* FOOTER CSS */
