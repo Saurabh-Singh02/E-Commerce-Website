@@ -1,8 +1,18 @@
 /* HEADER CSS */
 .head {
     justify-content: space-between;
-    padding: 1vw 2vw;
-    background-color: #c5ffb4;
+    /* padding: 1vw 2vw; */
+    background-color: #ffffff;
+    height: 10vh;
+}
+
+.head figure{
+    height: 40%;
+    padding-left: 10%;
+}
+
+.head figure a img{
+    max-height: 100%;
 }
 
 .nav-menu {
