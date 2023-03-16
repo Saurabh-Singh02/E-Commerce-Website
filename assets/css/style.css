@@ -1,8 +1,36 @@
 /* HEADER CSS */
+#topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(212, 66, 76);
+
+    height: 3.5vh;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: white;
+
+    padding: 0px 55px;
+}
+
+
 .head {
     justify-content: space-between;
-    padding: 1vw 2vw;
-    background-color: #c5ffb4;
+    /* padding: 1vw 2vw; */
+    background-color: #ffffff;
+    height: 10vh;
+}
+
+
+.head figure{
+    height: 40%;
+    padding-left: 10%;
+}
+
+.head figure a img{
+    max-height: 100%;
 }
 
 .nav-menu {
