@@ -95,4 +95,49 @@ main {
     min-height: 80vh;
 }
 
+/* slider */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform 0.5s ease;
+    transform: translateX(-1366px);
+}
+
+.slides img {
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.slider button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* FOOTER CSS */
