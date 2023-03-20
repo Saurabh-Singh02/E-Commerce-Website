@@ -1,5 +1,5 @@
 /* HEADER CSS */
-#topnav{
+#topnav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,19 +18,46 @@
 
 .head {
     justify-content: space-between;
+    /* justify-content: flex-start; */
+    flex-direction: row;
     /* padding: 1vw 2vw; */
     background-color: #ffffff;
     height: 10vh;
+    border-bottom: 1px solid #e7e9e8;
 }
 
 
-.head figure{
+.head figure {
     height: 40%;
     padding-left: 10%;
 }
 
-.head figure a img{
+.head figure a img {
     max-height: 100%;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar input {
+    padding: 5px;
+    height: 35px;
+    width: 30vw;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #e7e9e8;
+}
+
+.searchbar button {
+    height: 35px;
+    padding: 4px;
+    margin: -7px;
+    color: white;
+    background-color: #00afef;
+    border: 1px solid #e7e9e8;
+    border-radius: 3px;
 }
 
 .nav-menu {
@@ -49,16 +76,18 @@
 
 .navbar ul {
     justify-content: flex-start;
-    background-color: #111827;
+    /* background-color: #111827; */
+
 }
 
 .nav-menu {
-    padding: .8vw 1vw;
+    padding: 1vh 1vw;
 }
 
 .nav-menu a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #000;
+    font-size: .9rem;
 }
 
 /* MAIN CSS */
